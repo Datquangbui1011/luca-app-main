@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2AE585D2EB010A900012ED3 /* Auth in Frameworks */ = {isa = PBXBuildFile; productRef = A2AE585C2EB010A900012ED3 /* Auth */; };
+		A2AE585F2EB010A900012ED3 /* Functions in Frameworks */ = {isa = PBXBuildFile; productRef = A2AE585E2EB010A900012ED3 /* Functions */; };
+		A2AE58612EB010A900012ED3 /* PostgREST in Frameworks */ = {isa = PBXBuildFile; productRef = A2AE58602EB010A900012ED3 /* PostgREST */; };
+		A2AE58632EB010A900012ED3 /* Realtime in Frameworks */ = {isa = PBXBuildFile; productRef = A2AE58622EB010A900012ED3 /* Realtime */; };
+		A2AE58652EB010A900012ED3 /* Storage in Frameworks */ = {isa = PBXBuildFile; productRef = A2AE58642EB010A900012ED3 /* Storage */; };
+		A2AE58682EB0122D00012ED3 /* Supabase in Frameworks */ = {isa = PBXBuildFile; productRef = A2AE58672EB0122D00012ED3 /* Supabase */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A226DF102E8B469C004F8F1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A226DEF82E8B469B004F8F1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A226DEFF2E8B469B004F8F1C;
+			remoteInfo = "luca-app";
+		};
+		A226DF1A2E8B469C004F8F1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A226DEF82E8B469B004F8F1C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A226DEFF2E8B469B004F8F1C;
+			remoteInfo = "luca-app";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A226DF002E8B469B004F8F1C /* luca-app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "luca-app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A226DF0F2E8B469C004F8F1C /* luca-appTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "luca-appTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A226DF192E8B469C004F8F1C /* luca-appUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "luca-appUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A2E6A0C12EAACA15008E97BF /* Exceptions for "luca-app" folder in "luca-app" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A226DEFF2E8B469B004F8F1C /* luca-app */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A226DF022E8B469B004F8F1C /* luca-app */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A2E6A0C12EAACA15008E97BF /* Exceptions for "luca-app" folder in "luca-app" target */,
+			);
+			path = "luca-app";
+			sourceTree = "<group>";
+		};
+		A226DF122E8B469C004F8F1C /* luca-appTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "luca-appTests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A226DEFD2E8B469B004F8F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2AE58612EB010A900012ED3 /* PostgREST in Frameworks */,
+				A2AE585F2EB010A900012ED3 /* Functions in Frameworks */,
+				A2AE58682EB0122D00012ED3 /* Supabase in Frameworks */,
+				A2AE585D2EB010A900012ED3 /* Auth in Frameworks */,
+				A2AE58652EB010A900012ED3 /* Storage in Frameworks */,
+				A2AE58632EB010A900012ED3 /* Realtime in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A226DF0C2E8B469C004F8F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A226DF162E8B469C004F8F1C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A226DEF72E8B469B004F8F1C = {
+			isa = PBXGroup;
+			children = (
+				A226DF022E8B469B004F8F1C /* luca-app */,
+				A226DF122E8B469C004F8F1C /* luca-appTests */,
+				A2AE58662EB0122D00012ED3 /* Frameworks */,
+				A226DF012E8B469B004F8F1C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A226DF012E8B469B004F8F1C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A226DF002E8B469B004F8F1C /* luca-app.app */,
+				A226DF0F2E8B469C004F8F1C /* luca-appTests.xctest */,
+				A226DF192E8B469C004F8F1C /* luca-appUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2AE58662EB0122D00012ED3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A226DEFF2E8B469B004F8F1C /* luca-app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A226DF232E8B469C004F8F1C /* Build configuration list for PBXNativeTarget "luca-app" */;
+			buildPhases = (
+				A226DEFC2E8B469B004F8F1C /* Sources */,
+				A226DEFD2E8B469B004F8F1C /* Frameworks */,
+				A226DEFE2E8B469B004F8F1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A226DF022E8B469B004F8F1C /* luca-app */,
+			);
+			name = "luca-app";
+			packageProductDependencies = (
+				A2AE585C2EB010A900012ED3 /* Auth */,
+				A2AE585E2EB010A900012ED3 /* Functions */,
+				A2AE58602EB010A900012ED3 /* PostgREST */,
+				A2AE58622EB010A900012ED3 /* Realtime */,
+				A2AE58642EB010A900012ED3 /* Storage */,
+				A2AE58672EB0122D00012ED3 /* Supabase */,
+			);
+			productName = "luca-app";
+			productReference = A226DF002E8B469B004F8F1C /* luca-app.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A226DF0E2E8B469C004F8F1C /* luca-appTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A226DF262E8B469C004F8F1C /* Build configuration list for PBXNativeTarget "luca-appTests" */;
+			buildPhases = (
+				A226DF0B2E8B469C004F8F1C /* Sources */,
+				A226DF0C2E8B469C004F8F1C /* Frameworks */,
+				A226DF0D2E8B469C004F8F1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A226DF112E8B469C004F8F1C /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A226DF122E8B469C004F8F1C /* luca-appTests */,
+			);
+			name = "luca-appTests";
+			packageProductDependencies = (
+			);
+			productName = "luca-appTests";
+			productReference = A226DF0F2E8B469C004F8F1C /* luca-appTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A226DF182E8B469C004F8F1C /* luca-appUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A226DF292E8B469C004F8F1C /* Build configuration list for PBXNativeTarget "luca-appUITests" */;
+			buildPhases = (
+				A226DF152E8B469C004F8F1C /* Sources */,
+				A226DF162E8B469C004F8F1C /* Frameworks */,
+				A226DF172E8B469C004F8F1C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A226DF1B2E8B469C004F8F1C /* PBXTargetDependency */,
+			);
+			name = "luca-appUITests";
+			packageProductDependencies = (
+			);
+			productName = "luca-appUITests";
+			productReference = A226DF192E8B469C004F8F1C /* luca-appUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A226DEF82E8B469B004F8F1C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 2600;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					A226DEFF2E8B469B004F8F1C = {
+						CreatedOnToolsVersion = 26.0.1;
+					};
+					A226DF0E2E8B469C004F8F1C = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = A226DEFF2E8B469B004F8F1C;
+					};
+					A226DF182E8B469C004F8F1C = {
+						CreatedOnToolsVersion = 26.0.1;
+						TestTargetID = A226DEFF2E8B469B004F8F1C;
+					};
+				};
+			};
+			buildConfigurationList = A226DEFB2E8B469B004F8F1C /* Build configuration list for PBXProject "luca-app" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A226DEF72E8B469B004F8F1C;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				A2AE585B2EB010A900012ED3 /* XCRemoteSwiftPackageReference "supabase-swift" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A226DF012E8B469B004F8F1C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A226DEFF2E8B469B004F8F1C /* luca-app */,
+				A226DF0E2E8B469C004F8F1C /* luca-appTests */,
+				A226DF182E8B469C004F8F1C /* luca-appUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A226DEFE2E8B469B004F8F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A226DF0D2E8B469C004F8F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A226DF172E8B469C004F8F1C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A226DEFC2E8B469B004F8F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A226DF0B2E8B469C004F8F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A226DF152E8B469C004F8F1C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A226DF112E8B469C004F8F1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A226DEFF2E8B469B004F8F1C /* luca-app */;
+			targetProxy = A226DF102E8B469C004F8F1C /* PBXContainerItemProxy */;
+		};
+		A226DF1B2E8B469C004F8F1C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A226DEFF2E8B469B004F8F1C /* luca-app */;
+			targetProxy = A226DF1A2E8B469C004F8F1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A226DF212E8B469C004F8F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = XA544849SH;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A226DF222E8B469C004F8F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = XA544849SH;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 26.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A226DF242E8B469C004F8F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA544849SH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "luca-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seniordesign.luca-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A226DF252E8B469C004F8F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA544849SH;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "luca-app/Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 18.1;
+				"IPHONEOS_DEPLOYMENT_TARGET[sdk=iphoneos*]" = 18.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seniordesign.luca-app";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A226DF272E8B469C004F8F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA544849SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seniordesign.luca-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/luca-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/luca-app";
+			};
+			name = Debug;
+		};
+		A226DF282E8B469C004F8F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA544849SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seniordesign.luca-appTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/luca-app.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/luca-app";
+			};
+			name = Release;
+		};
+		A226DF2A2E8B469C004F8F1C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA544849SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seniordesign.luca-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "luca-app";
+			};
+			name = Debug;
+		};
+		A226DF2B2E8B469C004F8F1C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = XA544849SH;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "seniordesign.luca-appUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRING_CATALOG_GENERATE_SYMBOLS = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "luca-app";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A226DEFB2E8B469B004F8F1C /* Build configuration list for PBXProject "luca-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A226DF212E8B469C004F8F1C /* Debug */,
+				A226DF222E8B469C004F8F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A226DF232E8B469C004F8F1C /* Build configuration list for PBXNativeTarget "luca-app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A226DF242E8B469C004F8F1C /* Debug */,
+				A226DF252E8B469C004F8F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A226DF262E8B469C004F8F1C /* Build configuration list for PBXNativeTarget "luca-appTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A226DF272E8B469C004F8F1C /* Debug */,
+				A226DF282E8B469C004F8F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A226DF292E8B469C004F8F1C /* Build configuration list for PBXNativeTarget "luca-appUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A226DF2A2E8B469C004F8F1C /* Debug */,
+				A226DF2B2E8B469C004F8F1C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A2AE585B2EB010A900012ED3 /* XCRemoteSwiftPackageReference "supabase-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/supabase-community/supabase-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.5.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A2AE585C2EB010A900012ED3 /* Auth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2AE585B2EB010A900012ED3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Auth;
+		};
+		A2AE585E2EB010A900012ED3 /* Functions */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2AE585B2EB010A900012ED3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Functions;
+		};
+		A2AE58602EB010A900012ED3 /* PostgREST */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2AE585B2EB010A900012ED3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = PostgREST;
+		};
+		A2AE58622EB010A900012ED3 /* Realtime */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2AE585B2EB010A900012ED3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Realtime;
+		};
+		A2AE58642EB010A900012ED3 /* Storage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2AE585B2EB010A900012ED3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Storage;
+		};
+		A2AE58672EB0122D00012ED3 /* Supabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A2AE585B2EB010A900012ED3 /* XCRemoteSwiftPackageReference "supabase-swift" */;
+			productName = Supabase;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A226DEF82E8B469B004F8F1C /* Project object */;
+}
